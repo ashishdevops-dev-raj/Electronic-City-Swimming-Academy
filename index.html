@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Swimming coaching classes at Electronic City Branch, Bloom Suites Hotel near Wipro bus stand. Adults, kids & ladies batches. Weekdays & weekends. Call 9952265919.">
+  <meta name="keywords" content="swimming coaching, swimming classes, Electronic City, Bangalore, Bloom Suites, Wipro bus stand, kids swimming, adult swimming, ladies batch">
+  <meta name="author" content="Electronic City Swimming Pool">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Electronic City Swimming Pool | Swimming Classes in Bangalore">
+  <meta property="og:description" content="Year-round swimming coaching at Bloom Suites, Electronic City. Adults, kids & ladies batches on weekdays and weekends.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <title>Electronic City Swimming Pool | Swimming Classes in Bangalore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "Electronic City Swimming Pool",
+    "description": "Year-round swimming coaching classes for adults, kids and ladies at Bloom Suites, Electronic City Phase I, Bangalore.",
+    "telephone": "+919952265919",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bloom Suites Hotel, near Wipro Bus Stand, Electronic City Phase I",
+      "addressLocality": "Bangalore",
+      "postalCode": "560100",
+      "addressCountry": "IN"
+    },
+    "openingHours": ["Mo-Fr 07:00-20:00", "Sa 07:00-20:00", "Su 07:00-13:00"]
+  }
+  </script>
+  <style>
+    :root {
+      --primary: #006994;
+      --primary-dark: #004d6e;
+      --primary-light: #00a8e8;
+      --accent: #00d4ff;
+      --ocean: #0a2540;
+      --ocean-mid: #0d3b66;
+      --glass: rgba(255,255,255,0.12);
+      --glass-border: rgba(255,255,255,0.25);
+      --glass-white: rgba(255,255,255,0.85);
+      --text: #1a2b3c;
+      --text-light: #5a6f82;
+      --white: #ffffff;
+      --gold: #f5c542;
+      --shadow: 0 8px 32px rgba(0,40,80,0.15);
+      --radius: 16px;
+      --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;scroll-padding-top:80px}
+    body{font-family:'Poppins',sans-serif;color:var(--text);background:#f0f8ff;line-height:1.6;overflow-x:hidden}
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    ul{list-style:none}
+    button,input,textarea,select{font-family:inherit}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+    .section{padding:90px 0}
+    .section-header{text-align:center;margin-bottom:60px}
+    .section-header h2{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:700;color:var(--ocean);margin-bottom:12px}
+    .section-header p{color:var(--text-light);font-size:1.05rem;max-width:600px;margin:0 auto}
+    .section-header .line{width:60px;height:4px;background:linear-gradient(90deg,var(--primary),var(--accent));margin:16px auto 0;border-radius:2px}
+    .glass{background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:var(--radius)}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;border-radius:50px;font-weight:600;font-size:0.95rem;border:none;cursor:pointer;transition:var(--transition)}
+    .btn-primary{background:linear-gradient(135deg,var(--primary),var(--primary-light));color:var(--white);box-shadow:0 4px 20px rgba(0,105,148,0.4)}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,105,148,0.5)}
+    .btn-outline{background:transparent;color:var(--white);border:2px solid var(--white)}
+    .btn-outline:hover{background:var(--white);color:var(--primary)}
+    .btn-gold{background:linear-gradient(135deg,#e6a800,var(--gold));color:var(--ocean)}
+    .btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(245,197,66,0.4)}
+    .fade-in{opacity:0;transform:translateY(30px);transition:opacity 0.7s ease,transform 0.7s ease}
+    .fade-in.visible{opacity:1;transform:translateY(0)}
+    #loader{position:fixed;inset:0;background:var(--ocean);z-index:10000;display:flex;align-items:center;justify-content:center;flex-direction:column;transition:opacity 0.5s,visibility 0.5s}
+    #loader.hidden{opacity:0;visibility:hidden;pointer-events:none}
+    .loader-icon{font-size:3rem;color:var(--accent);animation:pulse 1.5s infinite}
+    .loader-text{color:var(--white);margin-top:16px;font-size:1.1rem;font-weight:500}
+    .loader-bar{width:200px;height:3px;background:rgba(255,255,255,0.2);border-radius:3px;margin-top:20px;overflow:hidden}
+    .loader-bar span{display:block;height:100%;width:0;background:var(--accent);animation:loadBar 1.5s ease forwards;border-radius:3px}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.1);opacity:0.7}}
+    @keyframes loadBar{to{width:100%}}
+    #navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:var(--transition)}
+    #navbar.scrolled{background:rgba(10,37,64,0.95);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:10px 0;box-shadow:0 4px 30px rgba(0,0,0,0.2)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between}
+    .logo{display:flex;align-items:center;gap:10px;color:var(--white);font-weight:700;font-size:1.1rem}
+    .logo i{font-size:1.6rem;color:var(--accent)}
+    .nav-links{display:flex;align-items:center;gap:28px}
+    .nav-links a{color:rgba(255,255,255,0.9);font-weight:500;font-size:0.9rem;transition:var(--transition);position:relative}
+    .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--accent);transition:var(--transition)}
+    .nav-links a:hover{color:var(--accent)}
+    .nav-links a:hover::after{width:100%}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:5px;background:none;border:none}
+    .hamburger span{width:26px;height:2px;background:var(--white);transition:var(--transition);border-radius:2px}
+    .hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+    .hamburger.active span:nth-child(2){opacity:0}
+    .hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+    #hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+    .hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;background-attachment:fixed}
+    .hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,37,64,0.85),rgba(0,77,110,0.7))}
+    .hero-content{position:relative;z-index:2;padding:120px 20px 80px;max-width:900px}
+    .hero-content h1{font-size:clamp(2.2rem,6vw,3.8rem);font-weight:800;color:var(--white);margin-bottom:16px;line-height:1.15;text-shadow:0 2px 20px rgba(0,0,0,0.3)}
+    .hero-content .subtitle{font-size:clamp(1.1rem,3vw,1.5rem);color:var(--accent);font-weight:600;margin-bottom:20px}
+    .hero-content .desc{font-size:1.05rem;color:rgba(255,255,255,0.85);margin-bottom:36px;max-width:650px;margin-left:auto;margin-right:auto}
+    .hero-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+    .hero-stats{display:flex;justify-content:center;gap:40px;margin-top:60px;flex-wrap:wrap}
+    .stat-item{text-align:center;color:var(--white)}
+    .stat-item .num{font-size:2.2rem;font-weight:800;color:var(--accent)}
+    .stat-item .label{font-size:0.85rem;opacity:0.8;margin-top:4px}
+    #about{background:var(--white)}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+    .about-image{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+    .about-image img{width:100%;height:450px;object-fit:cover}
+    .about-image .badge{position:absolute;bottom:20px;left:20px;background:var(--glass-white);backdrop-filter:blur(10px);padding:16px 24px;border-radius:12px;font-weight:600;color:var(--primary)}
+    .about-content h3{font-size:1.8rem;color:var(--ocean);margin-bottom:16px;font-weight:700}
+    .about-content p{color:var(--text-light);margin-bottom:24px}
+    .features-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .feature-card{display:flex;gap:14px;padding:20px;background:linear-gradient(135deg,#f0f8ff,#e8f4fd);border-radius:12px;transition:var(--transition);border:1px solid rgba(0,105,148,0.1)}
+    .feature-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+    .feature-card .icon{width:48px;height:48px;background:linear-gradient(135deg,var(--primary),var(--primary-light));border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--white);font-size:1.2rem;flex-shrink:0}
+    .feature-card h4{font-size:0.95rem;font-weight:600;color:var(--ocean);margin-bottom:4px}
+    .feature-card p{font-size:0.82rem;color:var(--text-light)}
+    #programs{background:linear-gradient(180deg,#e8f4fd 0%,#f0f8ff 100%)}
+    .programs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+    .program-card{position:relative;border-radius:var(--radius);overflow:hidden;height:320px;cursor:pointer;box-shadow:var(--shadow)}
+    .program-card img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s ease}
+    .program-card:hover img{transform:scale(1.1)}
+    .program-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,37,64,0.9) 0%,rgba(10,37,64,0.2) 60%,transparent 100%);display:flex;flex-direction:column;justify-content:flex-end;padding:28px;transition:var(--transition)}
+    .program-card:hover .program-overlay{background:linear-gradient(to top,rgba(0,105,148,0.95) 0%,rgba(0,105,148,0.4) 100%)}
+    .program-overlay i{font-size:2rem;color:var(--accent);margin-bottom:12px}
+    .program-overlay h3{color:var(--white);font-size:1.2rem;font-weight:700;margin-bottom:6px}
+    .program-overlay p{color:rgba(255,255,255,0.8);font-size:0.85rem}
+    #pricing{background:var(--ocean);position:relative;overflow:hidden}
+    #pricing::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(0,212,255,0.1) 0%,transparent 70%);border-radius:50%}
+    #pricing .section-header h2,#pricing .section-header p{color:var(--white)}
+    #pricing .section-header p{opacity:0.8}
+    .pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative;z-index:1}
+    .pricing-grid.single{grid-template-columns:1fr;max-width:400px;margin:0 auto}
+    .price-card .price-note{font-size:0.85rem;color:rgba(255,255,255,0.75);margin-top:-8px;margin-bottom:16px}
+    .price-card{background:var(--glass);backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:var(--radius);padding:36px 24px;text-align:center;transition:var(--transition);position:relative}
+    .price-card:hover{transform:translateY(-8px);border-color:var(--accent);box-shadow:0 20px 50px rgba(0,212,255,0.15)}
+    .price-card.popular{border-color:var(--gold);background:rgba(245,197,66,0.1)}
+    .popular-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#e6a800,var(--gold));color:var(--ocean);padding:4px 20px;border-radius:20px;font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+    .price-card h3{color:var(--white);font-size:1.1rem;font-weight:600;margin-bottom:8px;margin-top:8px}
+    .price-card .price{font-size:2.4rem;font-weight:800;color:var(--accent);margin:16px 0}
+    .price-card .price span{font-size:0.9rem;font-weight:400;color:rgba(255,255,255,0.6)}
+    .price-card .duration{color:rgba(255,255,255,0.6);font-size:0.85rem;margin-bottom:24px}
+    .price-features{text-align:left;margin-bottom:28px}
+    .price-features li{color:rgba(255,255,255,0.85);font-size:0.85rem;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;gap:8px}
+    .price-features li i{color:var(--accent);font-size:0.75rem}
+    #gallery{background:var(--white)}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .gallery-item{position:relative;border-radius:12px;overflow:hidden;cursor:pointer;aspect-ratio:4/3}
+    .gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+    .gallery-item:hover img{transform:scale(1.08)}
+    .gallery-item .gallery-hover{position:absolute;inset:0;background:rgba(0,105,148,0.6);display:flex;align-items:center;justify-content:center;opacity:0;transition:var(--transition)}
+    .gallery-item:hover .gallery-hover{opacity:1}
+    .gallery-hover i{font-size:2rem;color:var(--white)}
+    .lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:9999;display:none;align-items:center;justify-content:center;padding:20px}
+    .lightbox.active{display:flex}
+    .lightbox img{max-width:90vw;max-height:85vh;border-radius:8px;object-fit:contain}
+    .lightbox-close{position:absolute;top:20px;right:30px;color:var(--white);font-size:2rem;cursor:pointer;background:none;border:none;transition:var(--transition)}
+    .lightbox-close:hover{color:var(--accent);transform:rotate(90deg)}
+    .lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);color:var(--white);font-size:2rem;cursor:pointer;background:rgba(255,255,255,0.1);border:none;width:50px;height:50px;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:var(--transition)}
+    .lightbox-nav:hover{background:var(--primary)}
+    .lightbox-prev{left:20px}
+    .lightbox-next{right:20px}
+    #timings{background:linear-gradient(135deg,var(--primary-dark),var(--ocean))}
+    #timings .section-header h2,#timings .section-header p{color:var(--white)}
+    #timings .section-header p{opacity:0.8}
+    .timings-schedule{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .schedule-day{background:var(--glass);backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:var(--radius);padding:28px;transition:var(--transition)}
+    .schedule-day:hover{border-color:var(--accent);transform:translateY(-4px)}
+    .schedule-day h3{color:var(--white);font-size:1.1rem;font-weight:600;margin-bottom:20px;display:flex;align-items:center;gap:10px}
+    .schedule-day h3 i{color:var(--accent)}
+    .batch-list li{display:flex;flex-direction:column;gap:4px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.1)}
+    .batch-list li:last-child{border-bottom:none}
+    .batch-name{color:var(--white);font-size:0.9rem;font-weight:500}
+    .batch-time{color:var(--accent);font-size:0.88rem;font-weight:600}
+    .timings-note{text-align:center;color:rgba(255,255,255,0.75);margin-top:32px;font-size:0.95rem}
+    #testimonials{background:#f0f8ff}
+    .testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+    .testimonial-card{background:var(--white);border-radius:var(--radius);padding:32px;box-shadow:var(--shadow);transition:var(--transition);border:1px solid rgba(0,105,148,0.08)}
+    .testimonial-card:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(0,40,80,0.12)}
+    .stars{color:var(--gold);margin-bottom:16px;font-size:0.9rem}
+    .testimonial-card p{color:var(--text-light);font-size:0.92rem;font-style:italic;margin-bottom:20px;line-height:1.7}
+    .testimonial-author{display:flex;align-items:center;gap:12px}
+    .author-avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));display:flex;align-items:center;justify-content:center;color:var(--white);font-weight:700;font-size:1rem}
+    .author-info h4{font-size:0.9rem;font-weight:600;color:var(--ocean)}
+    .author-info span{font-size:0.78rem;color:var(--text-light)}
+    #contact{background:var(--white)}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+    .contact-info h3{font-size:1.6rem;color:var(--ocean);margin-bottom:24px;font-weight:700}
+    .contact-item{display:flex;gap:16px;margin-bottom:24px;align-items:flex-start}
+    .contact-item .icon{width:48px;height:48px;background:linear-gradient(135deg,var(--primary),var(--primary-light));border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--white);flex-shrink:0}
+    .contact-item h4{font-size:0.9rem;font-weight:600;color:var(--ocean);margin-bottom:4px}
+    .contact-item p,.contact-item a{color:var(--text-light);font-size:0.9rem}
+    .contact-item a:hover{color:var(--primary)}
+    .contact-form{background:linear-gradient(135deg,#f0f8ff,#e8f4fd);padding:36px;border-radius:var(--radius);border:1px solid rgba(0,105,148,0.1)}
+    .contact-form h3{font-size:1.4rem;color:var(--ocean);margin-bottom:24px;font-weight:700}
+    .form-group{margin-bottom:18px}
+    .form-group label{display:block;font-size:0.85rem;font-weight:500;color:var(--ocean);margin-bottom:6px}
+    .form-group input,.form-group textarea{width:100%;padding:12px 16px;border:1px solid rgba(0,105,148,0.2);border-radius:10px;font-size:0.9rem;background:var(--white);transition:var(--transition);color:var(--text)}
+    .form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(0,168,232,0.15)}
+    .form-group input.error,.form-group textarea.error{border-color:#e74c3c}
+    .form-error{color:#e74c3c;font-size:0.78rem;margin-top:4px;display:none}
+    .form-error.show{display:block}
+    .form-success{background:#d4edda;color:#155724;padding:12px 16px;border-radius:8px;margin-bottom:16px;display:none;font-size:0.9rem}
+    .form-success.show{display:block}
+    .map-container{border-radius:var(--radius);overflow:hidden;margin-top:40px;box-shadow:var(--shadow);height:350px}
+    .map-container iframe{width:100%;height:100%;border:0}
+    #footer{background:var(--ocean);color:rgba(255,255,255,0.8);padding:60px 0 0}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:40px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.1)}
+    .footer-brand h3{color:var(--white);font-size:1.2rem;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+    .footer-brand p{font-size:0.85rem;line-height:1.7;margin-bottom:16px}
+    .social-links{display:flex;gap:12px}
+    .social-links a{width:40px;height:40px;background:rgba(255,255,255,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--white);transition:var(--transition)}
+    .social-links a:hover{background:var(--primary-light);transform:translateY(-3px)}
+    .footer-col h4{color:var(--white);font-size:1rem;margin-bottom:16px;font-weight:600}
+    .footer-col ul li{margin-bottom:10px}
+    .footer-col ul a{font-size:0.85rem;transition:var(--transition)}
+    .footer-col ul a:hover{color:var(--accent);padding-left:4px}
+    .footer-bottom{text-align:center;padding:20px 0;font-size:0.82rem;opacity:0.6}
+    #whatsapp-btn{position:fixed;bottom:90px;right:24px;width:56px;height:56px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--white);font-size:1.6rem;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:var(--transition);animation:waPulse 2s infinite}
+    #whatsapp-btn:hover{transform:scale(1.1);box-shadow:0 6px 30px rgba(37,211,102,0.6)}
+    @keyframes waPulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,0.4)}50%{box-shadow:0 4px 30px rgba(37,211,102,0.7)}}
+    #back-to-top{position:fixed;bottom:24px;right:24px;width:48px;height:48px;background:var(--primary);color:var(--white);border:none;border-radius:50%;cursor:pointer;z-index:998;display:flex;align-items:center;justify-content:center;font-size:1.1rem;opacity:0;visibility:hidden;transition:var(--transition);box-shadow:0 4px 15px rgba(0,105,148,0.4)}
+    #back-to-top.visible{opacity:1;visibility:visible}
+    #back-to-top:hover{background:var(--primary-light);transform:translateY(-3px)}
+    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:5000;display:none;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(4px)}
+    .modal-overlay.active{display:flex}
+    .modal{background:var(--white);border-radius:var(--radius);padding:36px;max-width:480px;width:100%;position:relative;animation:modalIn 0.3s ease}
+    @keyframes modalIn{from{opacity:0;transform:scale(0.9)}to{opacity:1;transform:scale(1)}}
+    .modal h3{font-size:1.4rem;color:var(--ocean);margin-bottom:20px;font-weight:700}
+    .modal-close{position:absolute;top:16px;right:16px;background:none;border:none;font-size:1.3rem;color:var(--text-light);cursor:pointer}
+    .modal-close:hover{color:var(--ocean)}
+    @media(max-width:1024px){
+      .programs-grid,.pricing-grid,.timings-schedule{grid-template-columns:repeat(2,1fr)}
+      .testimonials-grid{grid-template-columns:repeat(2,1fr)}
+      .footer-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:768px){
+      .hamburger{display:flex}
+      .nav-links{position:fixed;top:0;right:-100%;width:280px;height:100vh;background:rgba(10,37,64,0.98);backdrop-filter:blur(20px);flex-direction:column;padding:80px 30px 30px;gap:20px;transition:var(--transition);z-index:999}
+      .nav-links.active{right:0}
+      .about-grid,.contact-grid{grid-template-columns:1fr}
+      .features-grid{grid-template-columns:1fr}
+      .programs-grid,.pricing-grid,.gallery-grid,.testimonials-grid,.timings-schedule{grid-template-columns:1fr}
+      .hero-stats{gap:24px}
+      .footer-grid{grid-template-columns:1fr}
+      .about-image img{height:300px}
+    }
+    @media(prefers-reduced-motion:reduce){
+      *,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}
+      html{scroll-behavior:auto}
+    }
+    .skip-link{position:absolute;top:-100px;left:16px;background:var(--primary);color:var(--white);padding:10px 20px;border-radius:8px;z-index:10001;font-weight:600;transition:top 0.3s}
+    .skip-link:focus{top:16px;outline:2px solid var(--accent)}
+    :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="loader" role="status" aria-label="Loading">
+    <div class="loader-icon"><i class="fas fa-swimmer" aria-hidden="true"></i></div>
+    <p class="loader-text">Electronic City Swimming Pool</p>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="Electronic City Swimming Pool Home">
+        <i class="fas fa-water" aria-hidden="true"></i>
+        <span>EC Swimming Pool</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#timings">Timings</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" role="banner">
+    <section id="hero">
+      <div class="hero-bg" style="background-image:url('https://lh3.googleusercontent.com/aida-public/AB6AXuCEAGskln-AbrZ-yC8rkFDKiIMi3zekOdvrhval4n69bUTkSxZ_-dxK02MgHI2mZWnjoaLWHbC0nqH0paywyzOxP96Y05XF3y3NdQ9JPVehmHbYCOK1bUD1q_TZ40p-rGQp9_h3M7BGfO1ny-FlyGO-TEAsQKleshdwSKRQ1IotJMR7jUwsPkwv-5R-Y16n-_9YPYrxoWJuhsQQJpFunZjEBGYfY3tYS_uHonbNNBtbIDVqZ89MeUmrWRUEVo2ki97HywggrfuD9hA')" role="img" aria-label="Professional swimming pool"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1>Electronic City Swimming Pool</h1>
+        <p class="subtitle">Learn, Train &amp; Excel in Swimming</p>
+        <p class="desc">Professional swimming coaching for kids, adults &amp; ladies. Classes run throughout the year on weekdays and weekends at our Electronic City branch.</p>
+        <div class="hero-btns">
+          <button class="btn btn-primary" id="bookTrialBtn" type="button"><i class="fas fa-calendar-check" aria-hidden="true"></i> Book Trial Class</button>
+          <a href="tel:+919952265919" class="btn btn-outline"><i class="fas fa-phone" aria-hidden="true"></i> Call Now</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item fade-in"><div class="num" data-count="500">0</div><div class="label">Happy Swimmers</div></div>
+          <div class="stat-item fade-in"><div class="num" data-count="10">0</div><div class="label">Certified Coaches</div></div>
+          <div class="stat-item fade-in"><div class="num" data-count="15">0</div><div class="label">Years Experience</div></div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main id="main-content">
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="about-title">About Us</h2>
+          <p>Year-round swimming coaching at Bloom Suites Hotel, near Wipro Bus Stand, Electronic City Phase I.</p>
+          <div class="line"></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-image fade-in">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_L-mxCvcZM0_xx-iOwaLI_26l2ZJp78Nzrv0I12ZRexD2nasdRIIuFQ2cxFazCeiTcZDq1Gu2XcWMpLQ4hGLBVLdyIuq1Tc_NW1aDt1l1AgtH6y5tj47MwEZIwgqz1eoQmnS-yzo_k9pssI5NtjI1rQqT4FwJunJYR57eneBseenv4kAe_iSi2l6MlcIpRcoxr1VUv-c9szPxAwjIzKyflIBBvbeO45RIT6bcgWC2FVQw5FPjN3APWlX0ZOX-9LcfXp_wkrftA8c" alt="Professional swimming coach training a student" loading="lazy" width="600" height="450">
+            <div class="badge"><i class="fas fa-award" aria-hidden="true"></i> ISA Certified Academy</div>
+          </div>
+          <div class="about-content fade-in">
+            <h3>Excellence in Aquatic Training</h3>
+            <p>Our Electronic City branch is at <strong>Bloom Suites Hotel</strong>, near the Wipro Bus Stand, Electronic City Phase I, Bangalore – 560100. We offer swimming coaching classes throughout the year during weekdays as well as weekend-only sessions for adults, kids, and ladies.</p>
+            <div class="features-grid">
+              <div class="feature-card">
+                <div class="icon"><i class="fas fa-user-tie" aria-hidden="true"></i></div>
+                <div><h4>Certified Coaches</h4><p>ISA certified professionals with years of competitive experience.</p></div>
+              </div>
+              <div class="feature-card">
+                <div class="icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+                <div><h4>Safe Environment</h4><p>Lifeguard supervision and safety protocols at all times.</p></div>
+              </div>
+              <div class="feature-card">
+                <div class="icon"><i class="fas fa-building" aria-hidden="true"></i></div>
+                <div><h4>Modern Facilities</h4><p>Olympic-standard pool with premium changing rooms.</p></div>
+              </div>
+              <div class="feature-card">
+                <div class="icon"><i class="fas fa-tint" aria-hidden="true"></i></div>
+                <div><h4>Clean Water Maintenance</h4><p>Advanced filtration ensuring crystal-clear hygienic water.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="section" aria-labelledby="programs-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="programs-title">Our Programs</h2>
+          <p>Coaching batches for adults, kids, and ladies on weekdays and weekends.</p>
+          <div class="line"></div>
+        </div>
+        <div class="programs-grid" id="programsGrid">
+          <article class="program-card fade-in">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_RJpTXth38RcZK4gfQ8UygAzC9cvMERy4Nl3xsWa0V0Ngpv0u2-NvaOMZNCujz1Zr_eUBnvMxm3vB_MvSe81rHz8Lmc5TPaWtBnEEnE38hjTiS_u11n5WBTjezYs09cnQCwzHUENB-yRgAxodC2fFZC-mezwM2CkkHNhyctqPvl3yegMjjWlRGD-VjpUrGx1FEYJY9_jUjIYLfAo2Gh0bzuy6_2Kbi7UBupmmd4-RD49oXpecXhkbyY9888K9ArOsFaoiT4X1kO0" alt="Kids swimming program" loading="lazy">
+            <div class="program-overlay"><i class="fas fa-child" aria-hidden="true"></i><h3>Kids Swimming</h3><p>Mon–Fri: 11 AM–1 PM &amp; 4–5 PM. Sat &amp; Sun: 11 AM–1 PM batches.</p></div>
+          </article>
+          <article class="program-card fade-in">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz3JgsoIiAnfbyn8krkQVEadzJYj8102NwT8m7hwiqW2hPYV_yNRmAVGNJ5LQNzLpDDNJTR6j4Sc19mwZGGAS5ZaxGOTIk8khciyyNQ2lJNcJtp8oniAiu3llE4AI51AjIAKqoLX10_gy35JqJYldT9mS9NczMwgC4FxLmbT_4f1RCFzpNIASGQIyI9I4ZYQfVsD9ETMtzAtP-j_lD3LtNFl-GWBkzgldo5vSTxzxtAriIl10DjVBZ_q2-Iea3QdKMewKrBnp9Tqk" alt="Adult swimming program" loading="lazy">
+            <div class="program-overlay"><i class="fas fa-person-swimming" aria-hidden="true"></i><h3>Adult Swimming</h3><p>Mon–Fri: 7–11 AM &amp; 6–8 PM. Sat: 7 AM–12 PM &amp; 4–8 PM. Sun: 7 AM–1 PM.</p></div>
+          </article>
+          <article class="program-card fade-in">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL6Uq3IIjwEsKYDWYe4xvGMSmybPfyn0dFKhc4fdEtkxIm_zw3MkZrBayUlyoxJc7_BnGgFYCVWpIYYmTgWEsii2wDet8JX_arDv4HnVkgGXc6dHVRn_-PV1zKbWY6Xx41yNCPz1QRglWU9abIfmudCw4tjLRPV8fHmWeerHeAgWL3eBLPbULWe5YQpx5TQrprUR2d6dhXk_mfIq_HrMCoT496Q37gdhBZGcS2ol3wSy5P_jNoFnVcIikPVi9wuOotANgrVupDqGw" alt="Ladies swimming batch" loading="lazy">
+            <div class="program-overlay"><i class="fas fa-venus" aria-hidden="true"></i><h3>Ladies Batch</h3><p>Monday to Friday evening batch: 5:00 PM to 6:00 PM.</p></div>
+          </article>
+          <article class="program-card fade-in">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsE_3ewp-hFCGBCX_0m84E5Ic084PnGgvyhEDDnw50w1H2XffbocNU_zWjYSgBDAiTusdbB3maZdWUJt9HKgOa35dQGrvxna5DzOI38pR8QzzdblLbDjKdLvbkw3rOEFXa2rPXJGRr5lGUWZ5o7Otge1rFtjq09nXVtldHB_ZKDBBVGwiW7i06xI6RX5Bo8y61ggjxWbo-Oj4fBh6eXOT-Id8P9J8J_5Z_6bcChDJ1B8p0bfIOyseCCKdSkXr4Hc_PXCYbJcYauwI" alt="Weekday swimming batches" loading="lazy">
+            <div class="program-overlay"><i class="fas fa-calendar-week" aria-hidden="true"></i><h3>Weekday Batches</h3><p>Full-week coaching with separate batches for adults, kids, and ladies.</p></div>
+          </article>
+          <article class="program-card fade-in">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6Qze1P7bMQfLNgsTvUUXFE-LUbn4N7uw6AtQmAr4XMWaxh8ztQ6g5wRakGTu8pdH7QRgphdIcg7Bx0x_EQHv8oFySYniTeG33dYt32L_vqykbSoNOefTy5rOj2XtMuU8v-ZbSFXqZdtxCxZuAEqWggBHhpw7daBqJcrpfZg8oMAzKZiylxlFjilH3rO3ebqnAsC09cFCdaYgEPP-ynds3voqOCbIzigWJUiLtWdXvpi6rp6JjnInO1vsP3gPhBtG8hdMZ91Esyks" alt="Weekend swimming classes" loading="lazy">
+            <div class="program-overlay"><i class="fas fa-calendar-days" aria-hidden="true"></i><h3>Weekend Classes</h3><p>Saturday &amp; Sunday morning and evening sessions for all age groups.</p></div>
+          </article>
+          <article class="program-card fade-in">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC06yl466vyk87im3ReW3iudQen0sgUw62C12q3tieQbuIfYantAg2ct7MjeEftUj-bct-r_BvG8hWYjKBXdr5KxLMToIpmsDn5qtDzN3vi6pnI1eTYy2UXTBUEagMt1UWVPC0JJpJeovpTnQWYQI9ivtq7QsQe_HdAxUFvvn6L2BhGcQpMfL3OI0hIQS4AiJdKapp1ZR5q7WMBVpMxeCppd5vft1CWBDzJGt_X69QlJK2Kim8LEbxdbIMh5l52Er4yLuXFrzLYd7E" alt="Beginner swimming program" loading="lazy">
+            <div class="program-overlay"><i class="fas fa-star" aria-hidden="true"></i><h3>Beginner Program</h3><p>18 one-hour coaching classes with 3 months validity to complete.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="pricing-title">Coaching Fees</h2>
+          <p>Professional swimming coaching packages with flexible batch timings.</p>
+          <div class="line" style="background:linear-gradient(90deg,var(--accent),var(--gold))"></div>
+        </div>
+        <div class="pricing-grid" id="pricingGrid">
+          <div class="price-card popular fade-in">
+            <span class="popular-badge">Adults</span>
+            <h3>Adult Coaching Package</h3>
+            <div class="price">&#8377;4,500</div>
+            <p class="price-note">18 one-hour coaching classes</p>
+            <p class="duration">3 months validity to complete</p>
+            <ul class="price-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> 18 one-hour sessions</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> 3 months validity period</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Morning &amp; evening adult batches</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Weekday &amp; weekend slots</li>
+            </ul>
+            <button class="btn btn-gold join-btn" type="button" data-plan="Adult Coaching Package (18 classes - Rs 4500)">Join Now</button>
+          </div>
+          <div class="price-card fade-in">
+            <h3>Kids Coaching</h3>
+            <div class="price" style="font-size:1.6rem">Contact Us</div>
+            <p class="price-note">Multiple batch timings available</p>
+            <p class="duration">Mon–Fri &amp; Weekend batches</p>
+            <ul class="price-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Mon–Fri: 11 AM–1 PM &amp; 4–5 PM</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Sat &amp; Sun: 11 AM–1 PM</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Safe &amp; supervised coaching</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Call for fee details</li>
+            </ul>
+            <button class="btn btn-gold join-btn" type="button" data-plan="Kids Coaching">Enquire Now</button>
+          </div>
+          <div class="price-card fade-in">
+            <h3>Ladies Batch</h3>
+            <div class="price" style="font-size:1.6rem">Contact Us</div>
+            <p class="price-note">Dedicated evening batch</p>
+            <p class="duration">Monday to Friday</p>
+            <ul class="price-features">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Mon–Fri: 5:00 PM–6:00 PM</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Ladies-only batch</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Professional coaching</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Call for fee details</li>
+            </ul>
+            <button class="btn btn-gold join-btn" type="button" data-plan="Ladies Batch Coaching">Enquire Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="gallery-title">Gallery</h2>
+          <p>Take a glimpse of our world-class swimming facilities and training sessions.</p>
+          <div class="line"></div>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <div class="gallery-item fade-in" data-index="0" tabindex="0" role="button" aria-label="View pool image 1">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcbGWSJyE6o7VZhi4ubNlaE8T1TQdT-3dX_gevrJOde_Ty83g9wXKTTfph8HftzzsH_oxImWP57CTpeOZ7WfSA8ZrI0zmkjVe7sx9XNCdZsLTOQSahU2nL7VEc0h8v5nsqkRxY4BqbsPtn8Mp_6UP87mPV2kEgh4YvCL1XNDT-2JsiIUkPUNEomSBhTXwE6b_l4JEivCDHrK9cCvNyA2tYkO-ONVO24aXKQ_Q1k5MivP2EdIFG_RpCo6GxLHVf39iWx3Rn_aADUgo" alt="Luxury swimming pool at Hotel Bloom Suites" loading="lazy">
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item fade-in" data-index="1" tabindex="0" role="button" aria-label="View pool image 2">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCS65Nxs_chWJUojyZrc0tmwcPyIRUAnfJH7Humvj-4a-WJdBSmtO9QkBVJKTnZ8BeLpJ4Qcv62Nu9PRaQDVyT99R8LKPTgN2l6NfANwu0qYd_F02fHyVBn6vvGs-usch0xC_IUvQO25IIb3pNBNnmxVu0Exl2Q2NtiODDfOCDAoEdfmNDbQi_4HEOFdp8s7qd09nUGZXa9FJARYh0Gom9M-MTLWK14zBT3VUxssJasqMdZbPl_RbnWmg5i8hXLrHA33cFZ9bDcK3w" alt="Professional swimming training session" loading="lazy">
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item fade-in" data-index="2" tabindex="0" role="button" aria-label="View pool image 3">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSY-kjxfoeMTNivIeLdN3X5CLIibbSeNhcm_ZAcaxty2lcH9ajF5VL1SJ0emcVp0dV1EGwn4PSojhUa2KgsVYRvcePW_TgCF0VMHZgFX72yTS_60VVm0w2LA0Lgx5o0_NdX8D4wmVWBF6DKGwRtC0OZ5AJvXUyoRskvo8T5V0ZQTHJ-YKp-i0xu-nUg902EdyBDPWfZR_KsSMefdA8SLKSXzVDmLxr1arJNUoGdiDlmpVdaAxwJI3nw9gmzo5YgUc7DZyzL1WfZ_o" alt="Premium swimming equipment" loading="lazy">
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item fade-in" data-index="3" tabindex="0" role="button" aria-label="View pool image 4">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFOU3GAlVTaP-qNZEqDfhewjZ157V2mZ5dKIroEvxptuqaI6FHcX-uJO5oJm5qcygmm06BAI3MitQMTY-yV20UT7WWiA0xwAmNDiv98tQrhu8U9KVvjxhJsSi71GiWRfOYgstEIjw0IU9GHe3Z2zzcaSjS1w96FX7MT_VP7AU04qtQNJlm85yijQOsUm6v-kMV9r9Vd1yYRakoBBLs2JUXJ6vRHQchyX_SBbbv3k6K7YodCliVhUJSd_vpEc1nnxWilhRWd2KBzXM" alt="Underwater swimming view" loading="lazy">
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item fade-in" data-index="4" tabindex="0" role="button" aria-label="View pool image 5">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4--_6MPCInTyaD-1pvB1SNE6DcwZ4CdtUJdtxlrZKyjiXIAgCxkAToSVDHNOt-n62TeIRwCmFcVeiV8c6_aPNLyCvSVSShVKOxAL8RPRIToxlTBv_vPIYzTmo2nGNf3pRaZnKff14eoX9YI0s58MxEqJJeRsTp70RHSFMus-iJuexAcUXpycUQk2OIW0OJXpn6joLPeh1DGHoGE37gHC3AywmD9crLQ1rgPXVT6fy904LWK60Gr1mDRh4lq_M2xHXVJEfYldP46Y" alt="Kids swimming lessons" loading="lazy">
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+          <div class="gallery-item fade-in" data-index="5" tabindex="0" role="button" aria-label="View pool image 6">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDk5_56QYclzhsTxjffCRgzRNg9c9le7_yCE3aVor2S5s4NbSJONYskythZUori_THHz7278e5msqQfHdPgY8wTzst6UzqwalmDQD03ZNS0azFe9lnAqp6zQcxDSmGcnDZMquMimSmp7b0arJ7qpqWlHSAT0B_X6pLOhKUQcwveWinJJsfH6ZdtLLuVaZt7jaPDolAFysEvPH52m86cQIQ_Wp4pVp-Dj7lLE5-ly2xu8RdBfLAFIy6tvooCZSV1Z-PfvipRE4duisQ" alt="Aerial view of swimming pool" loading="lazy">
+            <div class="gallery-hover"><i class="fas fa-search-plus" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timings" class="section" aria-labelledby="timings-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="timings-title">Batch Timings</h2>
+          <p>Classes available throughout the year on weekdays and weekends.</p>
+          <div class="line" style="background:linear-gradient(90deg,var(--accent),var(--white))"></div>
+        </div>
+        <div class="timings-schedule">
+          <div class="schedule-day fade-in">
+            <h3><i class="fas fa-calendar-week" aria-hidden="true"></i> Monday to Friday</h3>
+            <ul class="batch-list">
+              <li><span class="batch-name">Adults Batch (Morning)</span><span class="batch-time">7:00 AM – 11:00 AM</span></li>
+              <li><span class="batch-name">Kids Batch</span><span class="batch-time">11:00 AM – 1:00 PM</span></li>
+              <li><span class="batch-name">Kids Batch (Evening)</span><span class="batch-time">4:00 PM – 5:00 PM</span></li>
+              <li><span class="batch-name">Ladies Batch</span><span class="batch-time">5:00 PM – 6:00 PM</span></li>
+              <li><span class="batch-name">Adults Batch (Evening)</span><span class="batch-time">6:00 PM – 8:00 PM</span></li>
+            </ul>
+          </div>
+          <div class="schedule-day fade-in">
+            <h3><i class="fas fa-calendar-day" aria-hidden="true"></i> Saturday</h3>
+            <ul class="batch-list">
+              <li><span class="batch-name">Morning Sessions</span><span class="batch-time">7:00 AM – 12:00 PM</span></li>
+              <li><span class="batch-name">Kids Batch</span><span class="batch-time">11:00 AM – 12:00 PM</span></li>
+              <li><span class="batch-name">Kids Batch</span><span class="batch-time">12:00 PM – 1:00 PM</span></li>
+              <li><span class="batch-name">Evening Sessions</span><span class="batch-time">4:00 PM – 8:00 PM</span></li>
+            </ul>
+          </div>
+          <div class="schedule-day fade-in">
+            <h3><i class="fas fa-sun" aria-hidden="true"></i> Sunday</h3>
+            <ul class="batch-list">
+              <li><span class="batch-name">Morning Sessions</span><span class="batch-time">7:00 AM – 1:00 PM</span></li>
+              <li><span class="batch-name">Kids Batch</span><span class="batch-time">11:00 AM – 12:00 PM</span></li>
+              <li><span class="batch-name">Kids Batch</span><span class="batch-time">12:00 PM – 1:00 PM</span></li>
+            </ul>
+          </div>
+        </div>
+        <p class="timings-note fade-in"><i class="fas fa-info-circle" aria-hidden="true"></i> Adult coaching fee: &#8377;4,500 for 18 one-hour classes with a 3-month validity period to complete all sessions.</p>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="testimonials-title">What Our Swimmers Say</h2>
+          <p>Hear from our community of happy swimmers and their families.</p>
+          <div class="line"></div>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card fade-in">
+            <div class="stars" aria-label="5 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"My daughter learned to swim within 3 months. The coaches are patient, professional, and truly care about each child's progress."</p>
+            <div class="testimonial-author"><div class="author-avatar">PS</div><div class="author-info"><h4>Priya Sharma</h4><span>Parent</span></div></div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="stars" aria-label="5 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Great place to learn swimming. The ISA certified coaches really know their technique. Highly recommend for beginners and pro athletes."</p>
+            <div class="testimonial-author"><div class="author-avatar">RK</div><div class="author-info"><h4>Rajesh Kumar</h4><span>Adult Swimmer</span></div></div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="stars" aria-label="5 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"The weekday morning adult batch from 7 to 11 AM is perfect for my schedule. Great coaching at Bloom Suites near Wipro bus stand!"</p>
+            <div class="testimonial-author"><div class="author-avatar">AM</div><div class="author-info"><h4>Anita Menon</h4><span>Fitness Member</span></div></div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="stars" aria-label="5 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Enrolled my son in the kids program and the transformation has been amazing. He went from being afraid of water to swimming confidently."</p>
+            <div class="testimonial-author"><div class="author-avatar">VN</div><div class="author-info"><h4>Vikram Nair</h4><span>Parent</span></div></div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="stars" aria-label="4 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+            <p>"Personal coaching sessions helped me prepare for my triathlon. The advanced training program is top-notch with excellent facilities."</p>
+            <div class="testimonial-author"><div class="author-avatar">SD</div><div class="author-info"><h4>Sneha Desai</h4><span>Competitive Swimmer</span></div></div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="stars" aria-label="5 out of 5 stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Affordable adult coaching at &#8377;4,500 for 18 classes. The 3-month validity is convenient and the ladies evening batch is well organised."</p>
+            <div class="testimonial-author"><div class="author-avatar">MJ</div><div class="author-info"><h4>Mohammed Javed</h4><span>Adult Swimmer</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 id="contact-title">Contact Us</h2>
+          <p>Get in touch with us to start your swimming journey today.</p>
+          <div class="line"></div>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info fade-in">
+            <h3>Visit Our Pool</h3>
+            <div class="contact-item">
+              <div class="icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+              <div>
+                <h4>Address</h4>
+                <p>Bloom Suites Hotel<br>Near Wipro Bus Stand<br>Electronic City Phase I<br>Bangalore - 560100</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+919952265919">+91 9952265919</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+              <div>
+                <h4>Email</h4>
+                <p><a href="mailto:info@ecitypool.com">info@ecitypool.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+              <div>
+                <h4>Class Schedule</h4>
+                <p>Classes run throughout the year on weekdays &amp; weekends.<br>See <a href="#timings">Batch Timings</a> for details.</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form fade-in">
+            <h3>Send Us a Message</h3>
+            <div class="form-success" id="formSuccess" role="alert">Thank you! Your message has been sent successfully.</div>
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your full name">
+                <span class="form-error" id="nameError">Please enter your name</span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="your@email.com">
+                <span class="form-error" id="emailError">Please enter a valid email</span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone <span aria-hidden="true">*</span></label>
+                <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="10-digit mobile number">
+                <span class="form-error" id="phoneError">Please enter a valid 10-digit phone number</span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" rows="4" required placeholder="How can we help you?"></textarea>
+                <span class="form-error" id="messageError">Please enter your message</span>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center"><i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+            </form>
+          </div>
+        </div>
+        <div class="map-container fade-in">
+          <iframe src="https://www.google.com/maps?q=Bloom+Suites+Hotel,+near+Wipro+Bus+Stand,+Electronic+City+Phase+1,+Bangalore+560100&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bloom Suites Hotel near Wipro Bus Stand, Electronic City Bangalore"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><i class="fas fa-water" aria-hidden="true"></i> Electronic City Swimming Pool</h3>
+          <p>Year-round swimming coaching at Bloom Suites Hotel, near Wipro Bus Stand, Electronic City Phase I, Bangalore.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://wa.me/919952265919" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#timings">Timings</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#programs">Kids Swimming</a></li>
+            <li><a href="#programs">Adult Swimming</a></li>
+            <li><a href="#programs">Ladies Batch</a></li>
+            <li><a href="#programs">Weekday Batches</a></li>
+            <li><a href="#programs">Weekend Classes</a></li>
+            <li><a href="#programs">Beginner Program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Details</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Bloom Suites, near Wipro Bus Stand, EC Phase I</li>
+            <li><a href="tel:+919952265919"><i class="fas fa-phone" aria-hidden="true"></i> +91 9952265919</a></li>
+            <li><a href="mailto:info@ecitypool.com"><i class="fas fa-envelope" aria-hidden="true"></i> info@ecitypool.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Electronic City Swimming Pool. All rights reserved. | Bloom Suites, near Wipro Bus Stand, Bangalore</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919952265919?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20swimming%20classes." id="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+  <button id="back-to-top" type="button" aria-label="Back to top"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close gallery"><i class="fas fa-times" aria-hidden="true"></i></button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous image"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Next image"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
+
+  <div class="modal-overlay" id="trialModal" role="dialog" aria-modal="true" aria-labelledby="trialModalTitle">
+    <div class="modal">
+      <button class="modal-close" id="trialModalClose" type="button" aria-label="Close">&times;</button>
+      <h3 id="trialModalTitle">Book a Trial Class</h3>
+      <div class="form-success" id="trialSuccess" role="alert">Your trial class booking request has been submitted!</div>
+      <form id="trialForm" novalidate>
+        <div class="form-group">
+          <label for="trialName">Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="trialName" required placeholder="Your full name">
+          <span class="form-error" id="trialNameError">Please enter your name</span>
+        </div>
+        <div class="form-group">
+          <label for="trialEmail">Email</label>
+          <input type="email" id="trialEmail" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label for="trialPhone">Phone <span aria-hidden="true">*</span></label>
+          <input type="tel" id="trialPhone" required placeholder="10-digit mobile number">
+          <span class="form-error" id="trialPhoneError">Please enter a valid phone number</span>
+        </div>
+        <div class="form-group">
+          <label for="trialBatch">Preferred Batch</label>
+          <select id="trialBatch" style="width:100%;padding:12px 16px;border:1px solid rgba(0,105,148,0.2);border-radius:10px;font-size:0.9rem">
+            <option value="Adults Morning (7-11 AM)">Adults – Morning (7:00 AM – 11:00 AM)</option>
+            <option value="Kids Morning (11 AM-1 PM)">Kids – Morning (11:00 AM – 1:00 PM)</option>
+            <option value="Kids Evening (4-5 PM)">Kids – Evening (4:00 PM – 5:00 PM)</option>
+            <option value="Ladies Evening (5-6 PM)">Ladies – Evening (5:00 PM – 6:00 PM)</option>
+            <option value="Adults Evening (6-8 PM)">Adults – Evening (6:00 PM – 8:00 PM)</option>
+            <option value="Weekend Batch">Weekend Batch (Sat / Sun)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="trialMessage">Message</label>
+          <textarea id="trialMessage" rows="3" placeholder="Any specific requirements?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center"><i class="fas fa-calendar-check" aria-hidden="true"></i> Book Trial</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+  /**
+   * Electronic City Swimming Pool - Service Layer
+   * =============================================
+   * API Base URL - configure per environment
+   * Docker:      http://backend:8080/api
+   * Nginx:       /api (reverse proxy to Spring Boot)
+   * Azure:       https://ecity-swim-api.azurewebsites.net/api
+   *
+   * Set API_ENABLED to true when Spring Boot backend is running.
+   * While serving static HTML only (e.g. python -m http.server), keep false to avoid 404s.
+   */
+  const API_ENABLED = false;
+  const API_BASE_URL = '/api';
+
+  const SwimmingService = {
+    async submitContactForm(data) {
+      // Spring Boot: ContactController -> POST /api/contact -> ContactService -> ContactRepository (CONTACT_US table)
+      const response = await fetch(`${API_BASE_URL}/contact`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      if (!response.ok) throw new Error('Failed to submit contact form');
+      return response.json();
+    },
+
+    async submitTrialBooking(data) {
+      // Spring Boot: BookingController -> POST /api/book-trial -> BookingService -> TRIAL_BOOKING table
+      const response = await fetch(`${API_BASE_URL}/book-trial`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      if (!response.ok) throw new Error('Failed to submit trial booking');
+      return response.json();
+    },
+
+    async getPrograms() {
+      // Spring Boot: ProgramController -> GET /api/programs -> PROGRAMS table
+      const response = await fetch(`${API_BASE_URL}/programs`);
+      if (!response.ok) throw new Error('Failed to fetch programs');
+      return response.json();
+    },
+
+    async getPricing() {
+      // Spring Boot: PricingController -> GET /api/pricing -> PRICING table
+      const response = await fetch(`${API_BASE_URL}/pricing`);
+      if (!response.ok) throw new Error('Failed to fetch pricing');
+      return response.json();
+    },
+
+    async getGallery() {
+      // Spring Boot: GET /api/gallery
+      const response = await fetch(`${API_BASE_URL}/gallery`);
+      if (!response.ok) throw new Error('Failed to fetch gallery');
+      return response.json();
+    }
+  };
+
+  function sendWhatsappMessage(message) {
+    const defaultMsg = message || 'Hello, I would like to know more about swimming classes.';
+    const url = `https://wa.me/919952265919?text=${encodeURIComponent(defaultMsg)}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
+
+  /* Deployment Notes:
+   * Docker:  COPY swimming.html to nginx html dir, serve via docker-compose with backend service
+   * Nginx:   location / { try_files $uri /swimming.html; } proxy_pass /api to Spring Boot
+   * Azure:   Deploy as static site on Azure App Service or Blob Storage + CDN
+   */
+
+  (function () {
+    'use strict';
+
+    const $ = (sel) => document.querySelector(sel);
+    const $$ = (sel) => document.querySelectorAll(sel);
+
+    /* Loading Screen */
+    window.addEventListener('load', () => {
+      setTimeout(() => $('#loader').classList.add('hidden'), 1200);
+    });
+
+    /* Navbar Scroll Effect */
+    const navbar = $('#navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+      $('#back-to-top').classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+
+    /* Hamburger Menu */
+    const hamburger = $('#hamburger');
+    const navLinks = $('#navLinks');
+    hamburger.addEventListener('click', () => {
+      const open = hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+      hamburger.setAttribute('aria-expanded', open);
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    /* Smooth Scroll */
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', (e) => {
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+
+    /* Back to Top */
+    $('#back-to-top').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    /* Scroll Animations */
+    const fadeEls = $$('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    fadeEls.forEach(el => observer.observe(el));
+
+    /* Counter Animation */
+    let countersStarted = false;
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !countersStarted) {
+          countersStarted = true;
+          $$('[data-count]').forEach(counter => {
+            const target = +counter.dataset.count;
+            const duration = 2000;
+            const step = target / (duration / 16);
+            let current = 0;
+            const tick = () => {
+              current += step;
+              if (current < target) { counter.textContent = Math.floor(current) + '+'; requestAnimationFrame(tick); }
+              else counter.textContent = target + '+';
+            };
+            tick();
+          });
+        }
+      });
+    }, { threshold: 0.5 });
+    const statsSection = $('.hero-stats');
+    if (statsSection) counterObserver.observe(statsSection);
+
+    /* Lazy Loading Images */
+    if ('loading' in HTMLImageElement.prototype) {
+      $$('img[loading="lazy"]').forEach(img => { img.decoding = 'async'; });
+    } else {
+      const lazyObs = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            if (img.dataset.src) { img.src = img.dataset.src; lazyObs.unobserve(img); }
+          }
+        });
+      });
+      $$('img[data-src]').forEach(img => lazyObs.observe(img));
+    }
+
+    /* Lightbox Gallery */
+    const lightbox = $('#lightbox');
+    const lightboxImg = $('#lightboxImg');
+    const galleryItems = $$('.gallery-item');
+    let currentIndex = 0;
+
+    function openLightbox(index) {
+      currentIndex = index;
+      const img = galleryItems[index].querySelector('img');
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    function navigateLightbox(dir) {
+      currentIndex = (currentIndex + dir + galleryItems.length) % galleryItems.length;
+      openLightbox(currentIndex);
+    }
+
+    galleryItems.forEach((item, i) => {
+      item.addEventListener('click', () => openLightbox(i));
+      item.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(i); } });
+    });
+    $('#lightboxClose').addEventListener('click', closeLightbox);
+    $('#lightboxPrev').addEventListener('click', () => navigateLightbox(-1));
+    $('#lightboxNext').addEventListener('click', () => navigateLightbox(1));
+    lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+    document.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') navigateLightbox(-1);
+      if (e.key === 'ArrowRight') navigateLightbox(1);
+    });
+
+    /* Form Validation Helpers */
+    function showError(input, errorEl, msg) {
+      input.classList.add('error');
+      errorEl.textContent = msg;
+      errorEl.classList.add('show');
+    }
+    function clearError(input, errorEl) {
+      input.classList.remove('error');
+      errorEl.classList.remove('show');
+    }
+    function isValidEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+    function isValidPhone(phone) {
+      return /^[6-9]\d{9}$/.test(phone.replace(/\s/g, ''));
+    }
+
+    /* Contact Form */
+    const contactForm = $('#contactForm');
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      let valid = true;
+      const name = $('#name'), email = $('#email'), phone = $('#phone'), message = $('#message');
+
+      if (!name.value.trim()) { showError(name, $('#nameError'), 'Please enter your name'); valid = false; }
+      else clearError(name, $('#nameError'));
+
+      if (!isValidEmail(email.value.trim())) { showError(email, $('#emailError'), 'Please enter a valid email'); valid = false; }
+      else clearError(email, $('#emailError'));
+
+      if (!isValidPhone(phone.value.trim())) { showError(phone, $('#phoneError'), 'Please enter a valid 10-digit phone number'); valid = false; }
+      else clearError(phone, $('#phoneError'));
+
+      if (!message.value.trim()) { showError(message, $('#messageError'), 'Please enter your message'); valid = false; }
+      else clearError(message, $('#messageError'));
+
+      if (!valid) return;
+
+      const data = { name: name.value.trim(), email: email.value.trim(), phone: phone.value.trim(), message: message.value.trim() };
+      try {
+        await SwimmingService.submitContactForm(data);
+        $('#formSuccess').classList.add('show');
+        contactForm.reset();
+        setTimeout(() => $('#formSuccess').classList.remove('show'), 5000);
+      } catch {
+        sendWhatsappMessage(`Hello, I'm ${data.name}. ${data.message}`);
+        $('#formSuccess').textContent = 'Message sent via WhatsApp! We will get back to you soon.';
+        $('#formSuccess').classList.add('show');
+        contactForm.reset();
+        setTimeout(() => {
+          $('#formSuccess').classList.remove('show');
+          $('#formSuccess').textContent = 'Thank you! Your message has been sent successfully.';
+        }, 5000);
+      }
+    });
+
+    /* Trial Booking Modal */
+    const trialModal = $('#trialModal');
+    $('#bookTrialBtn').addEventListener('click', () => { trialModal.classList.add('active'); document.body.style.overflow = 'hidden'; });
+    $('#trialModalClose').addEventListener('click', () => { trialModal.classList.remove('active'); document.body.style.overflow = ''; });
+    trialModal.addEventListener('click', (e) => { if (e.target === trialModal) { trialModal.classList.remove('active'); document.body.style.overflow = ''; } });
+
+    const trialForm = $('#trialForm');
+    trialForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      let valid = true;
+      const tName = $('#trialName'), tPhone = $('#trialPhone');
+
+      if (!tName.value.trim()) { showError(tName, $('#trialNameError'), 'Please enter your name'); valid = false; }
+      else clearError(tName, $('#trialNameError'));
+
+      if (!isValidPhone(tPhone.value.trim())) { showError(tPhone, $('#trialPhoneError'), 'Please enter a valid phone number'); valid = false; }
+      else clearError(tPhone, $('#trialPhoneError'));
+
+      if (!valid) return;
+
+      const data = {
+        name: tName.value.trim(),
+        email: $('#trialEmail').value.trim(),
+        phone: tPhone.value.trim(),
+        preferred_batch: $('#trialBatch').value,
+        message: $('#trialMessage').value.trim()
+      };
+      try {
+        await SwimmingService.submitTrialBooking(data);
+        $('#trialSuccess').classList.add('show');
+        trialForm.reset();
+        setTimeout(() => { trialModal.classList.remove('active'); document.body.style.overflow = ''; $('#trialSuccess').classList.remove('show'); }, 3000);
+      } catch {
+        sendWhatsappMessage(`Hello, I'd like to book a trial class. Name: ${data.name}, Phone: ${data.phone}, Batch: ${data.preferred_batch}`);
+        $('#trialSuccess').classList.add('show');
+        trialForm.reset();
+        setTimeout(() => { trialModal.classList.remove('active'); document.body.style.overflow = ''; $('#trialSuccess').classList.remove('show'); }, 3000);
+      }
+    });
+
+    /* Join Now Buttons */
+    $$('.join-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        sendWhatsappMessage(`Hello, I'm interested in the ${btn.dataset.plan}. Please share details.`);
+      });
+    });
+
+    /* Fetch dynamic data only when Spring Boot backend is deployed */
+    async function loadDynamicContent() {
+      if (!API_ENABLED) return;
+      try {
+        const [programs, pricing] = await Promise.all([
+          SwimmingService.getPrograms(),
+          SwimmingService.getPricing()
+        ]);
+        // Render programs/pricing from API when Spring Boot backend is deployed
+        console.info('Programs loaded:', programs.length, '| Pricing loaded:', pricing.length);
+      } catch {
+        // Static content is used as fallback until backend is integrated
+      }
+    }
+    loadDynamicContent();
+  })();
+  </script>
+</body>
+</html>
